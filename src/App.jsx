@@ -1,11 +1,16 @@
 import axios from 'axios'
 import { useState } from 'react'
+import { Outlet } from 'react-router-dom'
+import { AnnouncementBar } from './Index'
 
 function App() {
-  
+
   return (
     <>
-      <h1 className='flex justify-center align-middle h-screen'>Welcome to Rect ecommerce with API</h1>
+      <AnnouncementBar />
+      <main>
+        <Outlet />
+      </main>
     </>
   )
 }
