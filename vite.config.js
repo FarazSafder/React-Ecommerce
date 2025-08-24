@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   server: {
     proxy:{
-      '/api': 'https://api.freeapi.app'
+      '/api': 'https://api.escuelajs.co'
     }
   },
   plugins: [tailwindcss(), react()],
