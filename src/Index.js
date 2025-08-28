@@ -4,6 +4,8 @@ import HomeSlider from './components/slider/HomeSlider'
 import Home from './pages/Home'
 import CategoriesSlider from './components/slider/CategoriesSlider'
 import ImageWithText from './components/ImageWithText'
+import FeatureCollection from './components/FeatureCollection'
+import FeatureSlide from './components/FeatureSlide'
 
 export {
     AnnouncementBar,
@@ -11,5 +13,7 @@ export {
     HomeSlider,
     Home,
     CategoriesSlider,
-    ImageWithText
+    ImageWithText,
+    FeatureCollection,
+    FeatureSlide
 }

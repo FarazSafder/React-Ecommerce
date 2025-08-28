@@ -1,5 +1,5 @@
 import React from 'react'
-import { CategoriesSlider, HomeSlider, ImageWithText } from '../Index'
+import { CategoriesSlider, FeatureCollection, HomeSlider, ImageWithText } from '../Index'
 
 export default function Home() {
   const ImageWithText1 = {
@@ -22,6 +22,7 @@ export default function Home() {
   return (
     <>
       <HomeSlider />
+      <FeatureCollection />
       <ImageWithText {...ImageWithText1} />
       <CategoriesSlider />
       <ImageWithText {...ImageWithText2} />
