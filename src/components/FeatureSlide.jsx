@@ -21,7 +21,7 @@ function FeatureSlide({ ...product }) {
                                             <SwiperSlide key={index} className={`${(index == 1 ? 'product-block__image--primary' : 'product-block__image--secondary')}`}>
                                                 <div className="mx-auto">
                                                     <div className="pt-[149%] relative">
-                                                        <img src={image} alt={product.title} className="object-cover h-full w-full absolute top-0 left-0" />
+                                                        <img src={image} alt={product.title}  className="object-cover h-full w-full absolute top-0 left-0 hover:scale-[1.2] transition-transform duration-300 ease-[cubic-bezier(0.25,0.01,0.25,1)]" />
                                                     </div>
                                                 </div>
                                             </SwiperSlide>

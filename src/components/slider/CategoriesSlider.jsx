@@ -26,6 +26,7 @@ function CategoriesSlider() {
                 <div className="py-[30px] px-[30px] xl:py[40px] xl:py-[40px]">
                     <div className="max-w-[850px] mx-auto transform -translate-x-[20px] flex flex-wrap flex-row -mb-[-30px] justify-around">
                         {categories.map((cat) => (
+                            (cat.image) &&
                             <div className="w-1/2 md:w-1/4 mb-[40px] xl:pl-[20px] grow shrink-0 basis-auto" key={cat.name}>
                                 <div className="mb-4 relative max-w-[120px] mx-auto">
                                     <Link to={cat.slug}>
