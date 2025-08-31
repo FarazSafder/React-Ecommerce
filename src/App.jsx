@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { useState } from 'react'
 import { Outlet } from 'react-router-dom'
-import { AnnouncementBar, Header, Instagram } from './Index'
+import { AnnouncementBar, Footer, Header, Instagram } from './Index'
 
 function App() {
   const posts = [
@@ -31,6 +31,7 @@ function App() {
         <Outlet />
       </main>
       <Instagram posts={posts} />
+      <Footer />
     </>
   )
 }

@@ -7,6 +7,7 @@ import ImageWithText from './components/ImageWithText'
 import FeatureCollection from './components/FeatureCollection'
 import FeatureSlide from './components/FeatureSlide'
 import Instagram from './components/Instagram'
+import Footer from './components/footer/Footer'
 
 export {
     AnnouncementBar,
@@ -17,5 +18,6 @@ export {
     ImageWithText,
     FeatureCollection,
     FeatureSlide,
-    Instagram
+    Instagram,
+    Footer
 }
