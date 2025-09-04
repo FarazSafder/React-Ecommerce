@@ -34,8 +34,7 @@ function FeatureCollection() {
                     <Swiper slidesPerView={2} pagination={false} breakpoints={{ 768:{slidesPerView: 3,spaceBetween: 20}, 1024: {slidesPerView: 4,spaceBetween: 30} }} className="fproductslider">
                         {featureProducts.slice(0, 10).map((product) => (
                             <SwiperSlide key={product.title}>
-                                <FeatureSlide {...product}>{console.log(product)
-                                }</FeatureSlide>
+                                <FeatureSlide {...product}></FeatureSlide>
                             </SwiperSlide>
                         ))}
                     </Swiper>

@@ -60,7 +60,7 @@ function Header() {
         <header>
             <div className='flex py-[10px] shadow-lg'>
                 <div className="flex">
-                    <img src="https://cdn.shopify.com/s/files/1/0716/6761/3975/files/farazsafder-high-resolution-logo-transparent.png?v=1756541679" alt="" />
+                    <img src="https://cdn.shopify.com/s/files/1/0716/6761/3975/files/farazsafder-high-resolution-logo-transparent.png?v=1756541679" width={200} alt="" />
                 </div>
                 <ul className='hidden md:flex'>
                     {

@@ -29,7 +29,7 @@ function CategoriesSlider() {
                             (cat.image) &&
                             <div className="w-1/2 md:w-1/4 mb-[40px] xl:pl-[20px] grow shrink-0 basis-auto" key={cat.name}>
                                 <div className="mb-4 relative max-w-[120px] mx-auto">
-                                    <Link to={cat.slug}>
+                                    <Link to={`/categories/${cat.slug}`}>
                                         <div className="mx-auto max-w-64">
                                             <div className="relative pt-[140%]">
                                                 <picture>

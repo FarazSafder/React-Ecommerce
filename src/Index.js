@@ -8,12 +8,14 @@ import FeatureCollection from './components/FeatureCollection'
 import FeatureSlide from './components/FeatureSlide'
 import Instagram from './components/Instagram'
 import Footer from './components/footer/Footer'
+import Collection from './pages/Collection'
 
 export {
     AnnouncementBar,
     Header,
     HomeSlider,
     Home,
+    Collection,
     CategoriesSlider,
     ImageWithText,
     FeatureCollection,
